@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yan Huang 黄䶮"
-  avatar           : "profile.png"
+  name             : "Yan Huang"
+  avatar           : "yanhuang-image.jpg"
   bio              : "Ph.D. student at UMN"
-  location         : "Minneapolis, MN"
+  location         : "Minneapolis, MN 55455"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
