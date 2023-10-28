@@ -9,7 +9,7 @@ Numercial Methods for Kinetic Equations
 
 Gradient Flows, Optimal Transport
 
-Scientific Machine Learning, deep learning
+Scientific Machine Learning, Deep Learning Theory
 
 ## Research Projects
 1.Acceleration of Variable Frequency Fourier Transform, SUSTech, Summer 2022 
