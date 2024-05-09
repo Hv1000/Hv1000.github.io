@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-## Research Interests
+## Research interests
 Numercial Methods for Kinetic Equations
 
 Gradient Flows, Optimal Transport
@@ -16,7 +16,7 @@ Deep Learning, Scientific Machine Learning
 ### Preprints:
 A score-based particle method for homogeneous Landau equation.
 
-## Research Projects
+## Research projects
 1.Acceleration of Variable Frequency Fourier Transform, SUSTech, Summer 2022 
 - Developed an acceleration algorithm for computing variable frequency Fourier transform with Prof. Zhen Zhang. 
 
