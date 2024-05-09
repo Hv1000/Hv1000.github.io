@@ -14,7 +14,7 @@ Deep Learning, Scientific Machine Learning
 
 ## Publications
 ### Preprints:
-A score-based particle method for homogeneous Landau equation.
+A score-based particle method for homogeneous Landau equation. [arXiv](https://arxiv.org/abs/2405.05187)
 
 ## Research projects
 1.Acceleration of Variable Frequency Fourier Transform, SUSTech, Summer 2022 
