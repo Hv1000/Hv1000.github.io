@@ -11,6 +11,11 @@ Gradient Flows, Optimal Transport
 
 Deep Learning, Scientific Machine Learning
 
+
+## Publications
+# Preprints:
+A score-based particle method for homogeneous Landau equation.
+
 ## Research Projects
 1.Acceleration of Variable Frequency Fourier Transform, SUSTech, Summer 2022 
 - Developed an acceleration algorithm for computing variable frequency Fourier transform with Prof. Zhen Zhang. 
