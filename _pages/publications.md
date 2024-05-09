@@ -16,10 +16,6 @@ Deep Learning, Scientific Machine Learning
 ### Preprints:
 [1] A score-based particle method for homogeneous Landau equation (with Li Wang). [arXiv](https://arxiv.org/abs/2405.05187)
 
-## Research projects
-1.Acceleration of Variable Frequency Fourier Transform, SUSTech, Summer 2022 
-- Developed an acceleration algorithm for computing variable frequency Fourier transform with Prof. Zhen Zhang. 
-
 
 
 {% if author.googlescholar %}
