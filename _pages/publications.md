@@ -13,7 +13,7 @@ Deep Learning, Scientific Machine Learning
 
 
 ## Publications
-# Preprints:
+### Preprints:
 A score-based particle method for homogeneous Landau equation.
 
 ## Research Projects
