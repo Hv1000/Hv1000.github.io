@@ -14,6 +14,7 @@ Deep Learning, Scientific Machine Learning
 
 ## Publications
 ### Preprints:
+[2] JKO for Landau: a variational particle method for homogeneous Landau equation (with Li Wang).
 [1] A score-based particle method for homogeneous Landau equation (with Li Wang). [arXiv](https://arxiv.org/abs/2405.05187)
 
 
