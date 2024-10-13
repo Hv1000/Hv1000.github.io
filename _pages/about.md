@@ -12,6 +12,10 @@ I'm a second year mathematics Ph.D. student at the [University of Minnesota, Twi
 
 My general research interests lie in Numerical Solutions for Kinetic Equations, Gradient Flows, Optimal Transport, Mean-field Limits and Scientifc Machine Learning. 
 
-My current research focus on the Landau equation in kinetic plasma physics.
+My current research focus on the Vlasov-Maxwell-Landau equation in kinetic plasma physics.
+
+$$
+\partial_t f + v \cdot \nabla_x f + (E + v \times B) \cdot \nabla_v f = \frac{1}{\varepsilon} \nabla_v \cdot \left( \int_{\mathbb{R}^{d_v}} |v-v_* |^{2+\gamma} \Pi(v-v_* ) [f(v_* )\nabla_v f(v) -  f(v) \nabla_{v_* } f(v_* ) ] \mathrm{d}v_* \right)
+$$
 
 
