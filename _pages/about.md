@@ -12,4 +12,6 @@ I'm a second year mathematics Ph.D. student at the [University of Minnesota, Twi
 
 My research interests lie in Numerical Solutions for Kinetic Equations, Gradient Flows, Optimal Transport, Mean-field Limits and Scientifc Machine Learning. 
 
+My current research focus on the Landau equation in kinetic plasma physics.
+
 
