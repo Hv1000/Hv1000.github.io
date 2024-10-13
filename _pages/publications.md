@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-## Publications
+
 ### Preprints:
 [2] JKO for Landau: a variational particle method for homogeneous Landau equation (with Li Wang). [arXiv](https://arxiv.org/abs/2409.12296)
 
