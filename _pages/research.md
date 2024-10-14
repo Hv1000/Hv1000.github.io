@@ -24,15 +24,12 @@ $$ Q(f,f) = \nabla_v \cdot \left\{ \int_{\mathbb{R}^{d_v}} |v-v_* |^{2+\gamma} \
 
 and recognize $\nabla_v \log f(v)$ as score function. Then it can be efficiently learned from particle data by the score-matching technique widely used in the deep generative models. This method is not only structure-preserving but also significantly faster than the deterministic particle method, making it promising for solving the Vlasov-Landau equation where a large number of particles are commonly needed. 
 
-In my second paper [2](https://arxiv.org/abs/2405.05187), we introduce a variational particle method by leveraging the non-trivial gradient flow structure of the homogeneous Landau equation. The gradient flow structure enables us to develop a solution using the seminal Jordan-Kinderlehrer-Otto (JKO) scheme, which guarantees desirable exact entropy dissipation and unconditional stability that are lacking in both deterministic and score-based particle methods. 
+In my second paper [2](https://arxiv.org/abs/2405.05187), we introduce a variational particle method by leveraging the non-trivial gradient flow structure of the homogeneous Landau equation. The gradient flow structure enables us to develop a solution using the seminal Jordan-Kinderlehrer-Otto (JKO) scheme,
 
-
-    
 $$\inf_{f, u} \frac{1}{2} \int_0^1 \iint_{\mathbb{R}^{2d}} |u-u_* |^2_A f f_{* } dv dv_* t + 2\tau \mathcal{H}(f(1, \cdot)) , $$
-             
-$$ s.t. \partial_t f = \nabla \cdot \left[ f \left( \int_{\mathbb{R}^d} A(v-v_* ) ( u-u_* ) f_{* } dv_* \right) \right] , f(0, \cdot) = f^n . $$
-        
 
-In addition, we also design a tailored stochastic optimization algorithm to further reduce computational cost. Therefore, this approach is suitable for plasma simulations over large-scale time periods.
+$$ s.t. \partial_t f = \nabla \cdot \left[ f \left( \int_{\mathbb{R}^d} A(v-v_* ) ( u-u_* ) f_{* } dv_* \right) \right] , f(0, \cdot) = f^n , $$
+        
+which guarantees desirable exact entropy dissipation and unconditional stability that are lacking in both deterministic and score-based particle methods. Therefore, this approach is suitable for plasma simulations over large-scale time periods.
 
 
