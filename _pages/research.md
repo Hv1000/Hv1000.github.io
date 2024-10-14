@@ -26,9 +26,10 @@ and recognize $\nabla \log f$ as score function. Then it can be efficiently lear
 
 In my second paper [2](https://arxiv.org/abs/2405.05187), we introduce a variational particle method by leveraging the non-trivial gradient flow structure of the homogeneous Landau equation. The gradient flow structure enables us to develop a solution using the seminal Jordan-Kinderlehrer-Otto (JKO) scheme,
 
-$$\inf_{f, u} \frac{1}{2} \int_0^1 \iint_{\mathbb{R}^{2d}} |u-u_*  |^2_A f f_*  dv dv_* t + 2\tau \mathcal{H}(f(1, \cdot)) , $$
+$$\inf_{f, u} \frac{1}{2} \int_0^1 \iint_{\mathbb{R}^{2d}} |u-u_*  |^2_A f f_* \mathrm{d}v \mathrm{d}v_* \mathrm{d}t + 2\Delta t \mathcal{H}(f(1, \cdot)) , $$
 
-$$ s.t. \quad \partial_t f = \nabla \cdot \left[ f \left( \int_{\mathbb{R}^d} A(v-v_* ) ( u-u_* ) f_* dv_* \right) \right] , f(0, \cdot) = f^n , $$
+$$ s.t. \quad \partial_t f = \nabla \cdot \left[ f \left( \int_{\mathbb{R}^d} A(v-v_* ) ( u-u_* ) f_* \mathrm{d}v_* \right) \right] , f(0, \cdot) = f^n , $$
+$$ where \quad \mathcal{H}(f) = \int_{\mathbb{R}^{d_v}} f \log f \mathrm{d}v $$
         
 which guarantees desirable exact entropy dissipation and unconditional stability that are lacking in both deterministic and score-based particle methods. Therefore, this approach is suitable for plasma simulations over large-scale time periods.
 
