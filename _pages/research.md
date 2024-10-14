@@ -22,7 +22,7 @@ In my first paper [1](https://arxiv.org/abs/2409.12296), we propose a score-base
 
 $$ Q(f,f) = \nabla \cdot \left\{ \int_{\mathbb{R}^{d_v}} A(v-v_* ) [\nabla \log f - \nabla_{* } \log f_* ]f f_* \mathrm{d}v_* \right\} , $$
 
-and recognize $\nabla \log f$ as score function. Then it can be efficiently learned from particle data by the score-matching technique widely used in the deep generative models. This method is not only structure-preserving but also scales well with dimensionality and is significantly faster than the deterministic particle method.
+and recognize $\nabla \log f$ as score function. Then it can be efficiently learned from particle data by the score-matching technique widely used in the deep generative models. This method is not only structure-preserving but also scales well with dimensionality and is significantly faster than the deterministic particle method, making it promising for solving the Vlasov-Landau equation where a large number of particles are commonly needed.
 
 In my second paper [2](https://arxiv.org/abs/2405.05187), we introduce a variational particle method by leveraging the gradient flow structure of the homogeneous Landau equation w.r.t entropy $$ \mathcal{H}(f) = \int_{\mathbb{R}^{d_v}} f \log f \mathrm{d}v $$. The gradient flow structure enables us to develop a solution using the seminal Jordan-Kinderlehrer-Otto (JKO) scheme,
 
