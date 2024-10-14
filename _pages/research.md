@@ -24,12 +24,12 @@ $$ Q(f,f) = \nabla \cdot \left\{ \int_{\mathbb{R}^{d_v}} A(v-v_* ) [\nabla \log 
 
 and recognize $\nabla \log f$ as score function. Then it can be efficiently learned from particle data by the score-matching technique widely used in the deep generative models. This method is not only structure-preserving but also significantly faster than the deterministic particle method, making it promising for solving the Vlasov-Landau equation where a large number of particles are commonly needed. 
 
-In my second paper [2](https://arxiv.org/abs/2405.05187), we introduce a variational particle method by leveraging the non-trivial gradient flow structure of the homogeneous Landau equation. The gradient flow structure enables us to develop a solution using the seminal Jordan-Kinderlehrer-Otto (JKO) scheme,
+In my second paper [2](https://arxiv.org/abs/2405.05187), we introduce a variational particle method by leveraging the non-trivial gradient flow structure of the homogeneous Landau equation w.r.t entropy $$ \mathcal{H}(f) = \int_{\mathbb{R}^{d_v}} f \log f \mathrm{d}v $$. The gradient flow structure enables us to develop a solution using the seminal Jordan-Kinderlehrer-Otto (JKO) scheme,
 
 $$\inf_{f, u} \frac{1}{2} \int_0^1 \iint_{\mathbb{R}^{2d}} |u-u_*  |^2_A f f_* \mathrm{d}v \mathrm{d}v_* \mathrm{d}t + 2\Delta t \mathcal{H}(f(1, \cdot)) , $$
 
 $$ s.t. \quad \partial_t f = \nabla \cdot \left[ f \left( \int_{\mathbb{R}^d} A(v-v_* ) ( u-u_* ) f_* \mathrm{d}v_* \right) \right] , f(0, \cdot) = f^n , $$
-$$ where \quad \mathcal{H}(f) = \int_{\mathbb{R}^{d_v}} f \log f \mathrm{d}v $$
+
         
 which guarantees desirable exact entropy dissipation and unconditional stability that are lacking in both deterministic and score-based particle methods. Therefore, this approach is suitable for plasma simulations over large-scale time periods.
 
