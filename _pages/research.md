@@ -17,6 +17,6 @@ $$
 Q(f,f) = \nabla_v \cdot \left\{ \int_{\mathbb{R}^{d_v}} |v-v_* |^{2+\gamma} \Pi(v-v_* ) [f(v_* )\nabla_v f(v) - f(v) \nabla_{v_* } f(v_* ) ] \mathrm{d}v_* \right\} ,
 $$
 
-where $\Pi(z)= I_{d_v} - \frac{z \otimes z}{|z|^2}$. 
+where $\Pi(z)= I_{d_v} - \frac{z \otimes z}{\|z\|^2}$. 
 
 The parameter $\gamma$ determines the type of interaction between particles. The most physical relevant case is $d_v =3, \gamma=-3$, which corrsponds to the Coulomb interaction is plasma.
