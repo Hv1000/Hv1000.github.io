@@ -15,4 +15,6 @@ $$ Q(f,f) = \nabla_v \cdot \left\{ \int_{\mathbb{R}^{d_v}} |v-v_* |^{2+\gamma} \
 
 where 
 $$\Pi(z)= I_{d_v} - \frac{z \otimes z}{ |z|^2 } $$
-denotes the projection into the orthogonal complement of $$\left\{ z \right\}$$. The parameter $\gamma$ determines the type of interaction between particles. The most physically relevant case is $d_v =3, \gamma=-3$, which corresponds to the Coulomb interaction is plasma.
+denotes the projection into the orthogonal complement of $$\left\{ z \right\}$$. The parameter $\gamma$ determines the type of interaction between particles. In the case of inverse power law, i.e., when two particles at distance $r$ interact with a force propotional to $$\frac{1}{r^s}$$, $\gamma=\frac{s-5}{s-1}$. The most physically relevant case is $d_v =3, \gamma=-3$, which corresponds to the Coulomb interaction ($s=2$) is plasma.
+
+
