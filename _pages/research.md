@@ -19,8 +19,7 @@ denotes the projection into the orthogonal complement of $$\left\{ z \right\}$$.
 
 Solving the Vlasov-Landau equation presents significant challenges, primarily due to its high dimensionality, mutilple scales, strong nonlinearity and non-locality. On the other hand, deep learning has progressively transformed the numerical computation of partial differential equations by leveraging neural networks' ability to approximate high-dimensional functions and the powerful optimization toolbox. However, straightforward application of deep learning to compute PDEs often encounters training difficulties and leads to a loss of physical fidelity. Therefore, I aim to develop methods that elegantly combines learning with asymptotic-preserving and structure-preserving numerical schemes.
 
-
-In my first paper (https://arxiv.org/abs/2409.12296), we propose a score-based particle method for the homogeneous Landau equation, combining structure-preserving particle methods with the score-matching technique widely used in the deep generative models. Our main idea is to rewrite the Landau operator into log form
+I begin by solving only the Landau operator, which results in the spatially homogeneous Landau equation. In my first paper (https://arxiv.org/abs/2409.12296), we propose a score-based particle method for the homogeneous Landau equation, combining structure-preserving particle methods with the score-matching technique widely used in the deep generative models. Our main idea is to rewrite the Landau operator into log form
 
 $$ Q(f,f) = \nabla_v \cdot \left\{ \int_{\mathbb{R}^{d_v}} |v-v_* |^{2+\gamma} \Pi(v-v_* ) [\nabla_v \log f(v) - \nabla_{v_* } \log f(v_* ) ]f(v) f(v_* ) \mathrm{d}v_* \right\} , $$
 
