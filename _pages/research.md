@@ -30,6 +30,6 @@ $$\inf_{f, u} \frac{1}{2} \int_0^1 \iint_{\mathbb{R}^{2d}} |u-u_*  |^2_A f f_* \
 
 $$ s.t. \quad \partial_t f = \nabla \cdot \left[ f \left( \int_{\mathbb{R}^d} A(v-v_* ) ( u-u_* ) f_* \mathrm{d}v_* \right) \right] , f(0, \cdot) = f^n , $$
 
-which guarantees desirable exact entropy dissipation and unconditional stability that are lacking in both deterministic and score-based particle methods. We parametrize $u$ by neural networks and train it by minimizng the particle formulation of JKO loss using stochastic gradient descent (SGD).
+which guarantees desirable exact entropy dissipation and unconditional stability that are lacking in both deterministic and score-based particle methods. We parametrize $u$ by neural networks and train it by minimizng the particle formulation of JKO loss using stochastic gradient descent (SGD). Therefore, this approach is suitable for plasma simulations over large-scale time periods.
 
 
