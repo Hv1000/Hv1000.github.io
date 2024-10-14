@@ -13,4 +13,4 @@ where $f=f(t,x,v)$ is the mass distribution function of charged particles in the
 
 $$ Q(f,f) = \nabla_v \cdot \left\{ \int_{\mathbb{R}^{d_v}} |v-v_* |^{2+\gamma} \Pi(v-v_* ) [f(v_* )\nabla_v f(v) - f(v) \nabla_{v_* } f(v_* ) ] \mathrm{d}v_* \right\} , $$
 
-where $\Pi(z)= I_{d_v} - \frac{z \otimes z}{\|z\|^2}$ denotes the projection into the orthogonal complement of $$\left\{ z \right\}$$. The parameter $\gamma$ determines the type of interaction between particles. The most physically relevant case is $d_v =3, \gamma=-3$, which corresponds to the Coulomb interaction is plasma.
+where $$\Pi(z)= I_{d_v} - \frac{z \otimes z}{\|z\|^2}$$ denotes the projection into the orthogonal complement of $$\left\{ z \right\}$$. The parameter $\gamma$ determines the type of interaction between particles. The most physically relevant case is $d_v =3, \gamma=-3$, which corresponds to the Coulomb interaction is plasma.
