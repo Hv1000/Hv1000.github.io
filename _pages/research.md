@@ -20,7 +20,7 @@ Solving the Vlasov-Landau equation presents significant challenges, primarily du
 
 In my first paper [1](https://arxiv.org/abs/2409.12296), we propose a score-based particle method for the spatially homogeneous Landau equation. Our main concept is to rewrite the Landau operator into log form
 
-$$ Q(f,f) = \nabla_v \cdot \left\{ \int_{\mathbb{R}^{d_v}} |v-v_* |^{2+\gamma} \Pi(v-v_* ) [\nabla_v \log f(v) - \nabla_{v_* } \log f(v_* ) ]f(v) f(v_* ) \mathrm{d}v_* \right\} , $$
+$$ Q(f,f) = \nabla_v \cdot \left\{ \int_{\mathbb{R}^{d_v}} A(v-v_* ) [\nabla_v \log f(v) - \nabla_{v_* } \log f(v_* ) ]f(v) f(v_* ) \mathrm{d}v_* \right\} , $$
 
 and recognize $\nabla_v \log f(v)$ as score function. Then it can be efficiently learned from particle data by the score-matching technique widely used in the deep generative models. This method is not only structure-preserving but also significantly faster than the deterministic particle method, making it promising for solving the Vlasov-Landau equation where a large number of particles are commonly needed. 
 
