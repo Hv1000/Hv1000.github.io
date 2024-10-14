@@ -17,9 +17,8 @@ where
 $$\Pi(z)= I_{d_v} - \frac{z \otimes z}{ |z|^2 } $$
 denotes the projection into the orthogonal complement of $$\left\{ z \right\}$$. The parameter $\gamma$ determines the type of interaction between particles. In the case of inverse power law, i.e., when two particles at distance $r$ interact with a force propotional to $$\frac{1}{r^s}$$, $\gamma=\frac{s-5}{s-1}$. The most physically relevant case is $\gamma=-3$, which corresponds to the Coulomb interaction ($s=2$). 
 
-Solving the Vlasov-Landau equation presents significant challenges, primarily due to its high dimensionality, mutilple scales, strong nonlinearity and non-locality. My starting point is to develop efficient particle methods
+Solving the Vlasov-Landau equation presents significant challenges, primarily due to its high dimensionality, mutilple scales, strong nonlinearity and non-locality. On the other hand, deep learning has progressively transformed the numerical computation of partial differential equations by leveraging neural networks' ability to approximate complex functions and the powerful optimization toolbox.
 
-For the Vlasov-type equation, the particle-in-cell (PIC) method being the most popular. However, relatively few methods have been developed for solving the Landau equation. Among these limited approaches, the deterministic particle method integrates seamlessly with PIC, offering a promising tool for tackling the Vlasov-Landau equation. However, a major bottleneck is its poor scalability with increasing dimensionality.
 
 
 In my first paper \cite{huang2024scorebasedparticlemethodhomogeneous}, we introduce a score-based particle method for the homogeneous Landau equation, combining structure-preserving particle methods with the score-matching technique, which is popular in generative artificial intelligence. Our method is not only structure-preserving and accurate but also significantly faster than the deterministic particle method, making it promising for solving the Vlasov-Landau equation where a large number of particles are commonly needed. 
