@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-My current research focus on computing the Vlasov-Landau equation in kinetic plasma physics:
+My current research focuses on computing the Vlasov-Landau equation in kinetic plasma physics:
 
 $$ \partial_t f + v \cdot \nabla_x f + (E + v \times B) \cdot \nabla_v f = \frac{1}{\varepsilon} Q(f, f) , $$
 
