@@ -18,4 +18,4 @@ Grader
 - MATH 8441 Numerical Analysis and Scientific Computing, Fall 2024
 
 Directed Reading Program
--  Fourier Analysis, Fall 2024 
+-  Elementary Fourier Analysis, Fall 2024 
