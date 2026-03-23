@@ -7,9 +7,10 @@ author_profile: true
 
 
 ### Preprints:
-[1] JKO for Landau: a variational particle method for homogeneous Landau equation (with Li Wang). [arXiv](https://arxiv.org/abs/2409.12296)
+[1] 
 
 ### Journals:
+[2] JKO for Landau: a variational particle method for homogeneous Landau equation (with Li Wang), to appear in IMA Journal of Numerical Analysis [arXiv](https://arxiv.org/abs/2409.12296).
 [1] [A score-based particle method for homogeneous Landau equation](https://doi.org/10.1016/j.jcp.2025.114053) (with Li Wang), Journal of Computational Physics, 2025. 
 
 
