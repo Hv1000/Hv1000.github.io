@@ -13,5 +13,5 @@ I'm a third-year Ph.D. candidate in mathematics at the [University of Minnesota,
 My current research interets focuses on  
 
 - Numerical methods for kinetic equations.
-- Gradient flows and optimal transport, along with their applications,
+- Gradient flows and optimal transport, along with their applications.
 - Scientific machine learning and deep generative modeling.
