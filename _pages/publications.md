@@ -10,7 +10,7 @@ author_profile: true
 [1] Asymptotic-preserving deterministic particle methods for collisional plasma models (with Li Wang), [arXiv](https://arxiv.org/abs/2604.09484)
 
 ### Journals:
-[2] JKO for Landau: a variational particle method for homogeneous Landau equation (with Li Wang), to appear in IMA Journal of Numerical Analysis [arXiv](https://arxiv.org/abs/2409.12296).
+[2] [JKO for Landau: a variational particle method for homogeneous Landau equation](https://academic.oup.com/imajna/advance-article-abstract/doi/10.1093/imanum/drag041/8746121) (with Li Wang), IMA Journal of Numerical Analysis, 2026.
 
 [1] [A score-based particle method for homogeneous Landau equation](https://doi.org/10.1016/j.jcp.2025.114053) (with Li Wang), Journal of Computational Physics, 2025. 
 
