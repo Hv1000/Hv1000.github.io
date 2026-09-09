@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a third-year Ph.D. candidate in mathematics at the [University of Minnesota, Twin Cities](https://twin-cities.umn.edu/), advised by [Prof. Li Wang](https://liwang-umn.github.io/math/). I obtained my B.S. in Mathematics and Applied Mathematics at the [Southern University of Science and Technology](https://www.sustech.edu.cn/en/). Here is my [CV](https://hv1000.github.io/files/CV_yan_huang.pdf).
+I'm a fourth-year Ph.D. candidate in mathematics at the [University of Minnesota, Twin Cities](https://twin-cities.umn.edu/), advised by [Prof. Li Wang](https://liwang-umn.github.io/math/). I obtained my B.S. in Mathematics and Applied Mathematics at the [Southern University of Science and Technology](https://www.sustech.edu.cn/en/). Here is my [CV](https://hv1000.github.io/files/CV_yan_huang.pdf).
 
 My current research interets focuses on  
 
